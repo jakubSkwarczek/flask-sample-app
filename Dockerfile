@@ -7,6 +7,7 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["python3", "run.py"]
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
 
 
