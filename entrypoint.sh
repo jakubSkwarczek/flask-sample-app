@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ "$1" = "test" ]; then
     python3 -m unittest discover tests
